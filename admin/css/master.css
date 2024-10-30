@@ -1,0 +1,421 @@
+:root {
+  font-size: 24px; }
+
+@media screen and (max-width: 800px) {
+  font-size: 16px; }
+body {
+  /*background-color: #1B68AE;*/ }
+
+.main-screen-container-fluid {
+  width: 100%;
+  min-width: 1000px;
+
+  /*
+  ****************************************************************
+  			SELECT YOUR VIDEO SOURCE SECTION
+  ****************************************************************
+  */
+  /*
+  ****************************************************************
+  		ADD COMMENT MESSAGE SECTION
+  ****************************************************************
+  */
+  /*
+  ****************************************************************
+  		AFFLIATE LINK/OFFER SECTION
+  ****************************************************************
+  */
+  /*
+  ****************************************************************
+  		STYLE TEXT & ACTIONS
+  ****************************************************************
+  */
+  /*
+  ****************************************************************
+  		SHORTCODE BODY
+  ****************************************************************
+  */ }
+  .main-screen-container-fluid .main-screen__top-heading {
+    margin: 30px auto 50px;
+    font-size: 1.16667rem; }
+  .main-screen-container-fluid .main-screen__plugin-body {
+    background-color: #F1F1F1;
+    padding: 10px 30px; }
+  .main-screen-container-fluid .main-screen__plugin-body--main-heading {
+    font-weight: bold;
+    font-size: 0.916667rem; }
+  .main-screen-container-fluid .checkbox-icon, .main-screen-container-fluid .checkbox-icon-2 {
+    display: inline-block;
+    color: #77B00B;
+    font-size: 22px;
+    margin-left: 10px; }
+  .main-screen-container-fluid .steps {
+    margin-top: 3px; }
+    .main-screen-container-fluid .steps:hover {
+      cursor: pointer; }
+  .main-screen-container-fluid .main-screen__plugin-body-counter {
+    display: inline-block;
+    background-color: #185C9D;
+    font-size: 0.6091667rem;
+    height: 46px;
+    width: 29px;
+    text-align: center; }
+    .main-screen-container-fluid .main-screen__plugin-body-counter h4 {
+      margin: 16px 15px 19px 8px;
+      color: #fff; }
+  .main-screen-container-fluid .main-screen__plugin-body-title, .main-screen-container-fluid .main-screen__plugin-body--icon {
+    display: inline-block;
+    font-size: 0.6091667rem;
+    background-color: #212020;
+    height: 46px;
+    margin-left: -4px; }
+    .main-screen-container-fluid .main-screen__plugin-body-title h4, .main-screen-container-fluid .main-screen__plugin-body--icon h4 {
+      width: 400px;
+      margin: 16px 0 19px 8px;
+      color: #fff;
+      display: inline-block; }
+  .main-screen-container-fluid .selected-video-source-icon {
+    display: none; }
+  .main-screen-container-fluid .main-screen__plugin-body--icon {
+    vertical-align: top;
+    color: #fff; }
+    .main-screen-container-fluid .main-screen__plugin-body--icon .icon {
+      /*padding: 17px 20px 19px 8px;*/
+      margin:1.23em;
+      cursor: pointer; }
+  .main-screen-container-fluid .video-sources {
+    font-family: 'Open Sans', sans-serif; }
+    .main-screen-container-fluid .video-sources .single-video-source {
+      margin-left: 29px;
+      padding: 10px 16px;
+      width: 451px;
+      display: inline-block; }
+      .main-screen-container-fluid .video-sources .single-video-source .single-video-source__name-section {
+        cursor: pointer;
+        margin: 3px 0 7px; }
+    .main-screen-container-fluid .video-sources .youtube, .main-screen-container-fluid .video-sources .youtube-url {
+      color: #b31217; }
+    .main-screen-container-fluid .video-sources .vimeo, .main-screen-container-fluid .video-sources .vimeo-url {
+      color: #1AACE5; }
+    .main-screen-container-fluid .video-sources .wistia, .main-screen-container-fluid .video-sources .wistia-url {
+      color: #168BDA; }
+    .main-screen-container-fluid .video-sources .meidia-library, .main-screen-container-fluid .video-sources .external-link, .main-screen-container-fluid .video-sources .ml-url {
+      color: #484C4D; }
+    .main-screen-container-fluid .video-sources .youtube, .main-screen-container-fluid .video-sources .wistia, .main-screen-container-fluid .video-sources .external-link {
+      background-color: #D9E4E0; }
+    .main-screen-container-fluid .video-sources .vimeo, .main-screen-container-fluid .video-sources .media-library {
+      background-color: #CBD4D1; }
+    .main-screen-container-fluid .video-sources .change-background {
+      background-color: #fff; }
+    .main-screen-container-fluid .video-sources .wistia-logo {
+      display: inline-block; }
+    .main-screen-container-fluid .video-sources .source-icon {
+      font-size: 20px;
+      display: inline-block; }
+    .main-screen-container-fluid .video-sources .source-text {
+      display: inline-block;
+      padding-left: 5px;
+      font-weight: bold;
+      font-size: 14.79px; }
+    .main-screen-container-fluid .video-sources .url-info-message {
+      float: right;
+      color: #717171;
+      font-size: 14.79px; }
+    .main-screen-container-fluid .video-sources .single-video-source__url-section {
+      display: none;
+      padding-top: 10px;
+      position: relative;
+      border-top: 1px solid #ccc; }
+      .main-screen-container-fluid .video-sources .single-video-source__url-section input[type="text"] {
+        background-color: #F7F7F7; }
+    .main-screen-container-fluid .video-sources .single-video-source__url-section--url {
+      display: inline-block;
+      font-weight: bold; }
+    .main-screen-container-fluid .video-sources .single-video-source__url-section--video-url-field {
+      display: inline-block;
+      width: 90%; }
+    .main-screen-container-fluid .video-sources .single-video-source__save-btn {
+      display: inline-block;
+      position: absolute;
+      right: -77px;
+      bottom: -10px; }
+  .main-screen-container-fluid .generic-save-button, .main-screen-container-fluid .save-button button {
+    background-color: #80BE15;
+    color: #fff;
+    border: 0;
+    padding: 15px; }
+  .main-screen-container-fluid .active-button {
+    background-color: #77b315;
+    padding: 3px 25px; }
+  .main-screen-container-fluid .active-button-sibling {
+    background-color: #939393;
+    padding: 3px 15px; }
+  .main-screen-container-fluid .enable-status, .main-screen-container-fluid .enable-status-sfl {
+    display: none; }
+  .main-screen-container-fluid .marketing-message-body, .main-screen-container-fluid .affliate-link-body, .main-screen-container-fluid .style-text-body {
+    background-color: #fff;
+    position: relative;
+    width: 451.5px;
+    margin-left: 30px; }
+    .main-screen-container-fluid .marketing-message-body ul, .main-screen-container-fluid .affliate-link-body ul, .main-screen-container-fluid .style-text-body ul {
+      margin: 0;
+      padding: 20px 0 0; }
+      .main-screen-container-fluid .marketing-message-body ul li, .main-screen-container-fluid .affliate-link-body ul li, .main-screen-container-fluid .style-text-body ul li {
+        margin-left: 10px;
+        list-style-type: none; }
+    .main-screen-container-fluid .marketing-message-body textarea, .main-screen-container-fluid .affliate-link-body textarea, .main-screen-container-fluid .style-text-body textarea {
+      width: 75%; }
+    .main-screen-container-fluid .marketing-message-body .headline-text, .main-screen-container-fluid .affliate-link-body .headline-text, .main-screen-container-fluid .style-text-body .headline-text {
+      height: 84px; }
+    .main-screen-container-fluid .marketing-message-body .para-text, .main-screen-container-fluid .affliate-link-body .para-text, .main-screen-container-fluid .style-text-body .para-text {
+      height: 104px; }
+    .main-screen-container-fluid .marketing-message-body .button-group, .main-screen-container-fluid .affliate-link-body .button-group, .main-screen-container-fluid .style-text-body .button-group {
+      display: inline-block;
+      float: right;
+      padding-right: 10px; }
+      .main-screen-container-fluid .marketing-message-body .button-group .toggle-button, .main-screen-container-fluid .affliate-link-body .button-group .toggle-button, .main-screen-container-fluid .style-text-body .button-group .toggle-button {
+        background-color: #939393;
+        border: 0;
+        padding: 3px 15px;
+        color: #fff; 
+        font-size: 14px;}
+        .main-screen-container-fluid .marketing-message-body .button-group .toggle-button:focus, .main-screen-container-fluid .affliate-link-body .button-group .toggle-button:focus, .main-screen-container-fluid .style-text-body .button-group .toggle-button:focus {
+          outline: 0; }
+      .main-screen-container-fluid .marketing-message-body .button-group .f-btn, .main-screen-container-fluid .affliate-link-body .button-group .f-btn, .main-screen-container-fluid .style-text-body .button-group .f-btn {
+        border-radius: 4px 0 0 4px; }
+      .main-screen-container-fluid .marketing-message-body .button-group .s-btn, .main-screen-container-fluid .affliate-link-body .button-group .s-btn, .main-screen-container-fluid .style-text-body .button-group .s-btn {
+        border-radius: 0 4px 4px 0;
+        margin-left: -4px; }
+    .main-screen-container-fluid .marketing-message-body h4, .main-screen-container-fluid .affliate-link-body h4, .main-screen-container-fluid .style-text-body h4 {
+      font-weight: bold;
+      display: inline-block; }
+    .main-screen-container-fluid .marketing-message-body .char-limit, .main-screen-container-fluid .affliate-link-body .char-limit, .main-screen-container-fluid .style-text-body .char-limit {
+      display: inline-block;
+      margin-left: 75px; }
+  .main-screen-container-fluid .save-button {
+    position: absolute;
+    right: -63px;
+    bottom: 0; }
+  .main-screen-container-fluid .affliate-link-body input[type="text"] {
+    width: 75%; }
+  .main-screen-container-fluid .affliate-link-body h4 {
+    display: inline-block; }
+  .main-screen-container-fluid .style-text-body p {
+    color: #666; }
+  .main-screen-container-fluid .style-text-body input[type="text"] {
+    display: inline-block;
+    width: 15%;
+    float: right;
+    margin-right: 10px; }
+  .main-screen-container-fluid .style-text-body .stlye-text-container {
+    width: 453.672px; }
+  .main-screen-container-fluid .style-text-body .border-bottom-row {
+    border-bottom: 1px solid #ccc; }
+  .main-screen-container-fluid .style-text-body .border-right-col {
+    border-right: 1px solid #ccc; }
+  .main-screen-container-fluid .style-text-body .box, .main-screen-container-fluid .style-text-body .box-dark {
+    margin-top: 20px;
+    width: 40px;
+    height: 25px;
+    background-color: #77b315; }
+  .main-screen-container-fluid .style-text-body .box-dark {
+    background-color: #4EC085; }
+  .main-screen-container-fluid .short-code-body .short-code-body__configuations, .main-screen-container-fluid .short-code-body .short-code-body__generated-short-code {
+    display: none; }
+  .main-screen-container-fluid .short-code-body h3 {
+    font-weight: bold; }
+  .main-screen-container-fluid .short-code-body h5 {
+    color: gray;
+    font-weight: bold; }
+  .main-screen-container-fluid .short-code-body input[type="text"] {
+    width: 40%;
+    display: inline-block; }
+  .main-screen-container-fluid .short-code-body .marketing-video-save-button {
+    background: #80BE15;
+    border: 0;
+    padding: 5px 10px;
+    color: #fff; }
+  .main-screen-container-fluid .short-code-body .copy-code {
+    display: inline-block;
+    color: #80BE15;
+    cursor: pointer;
+    text-decoration: underline; }
+  .main-screen-container-fluid .short-code-body .more-info, .main-screen-container-fluid .short-code-body .down-arrow {
+    color: #80BE15;
+    font-weight: bold; }
+  .main-screen-container-fluid .short-code-body .down-arrow {
+    margin: 3px 0 0 7px; }
+  .main-screen-container-fluid .short-code-body .more-info-para {
+    display: none;
+    color: gray; }
+  .main-screen-container-fluid .short-code-body .loader {
+    display: inline-block;
+    height: 22px;
+    width: 19px; }
+  .wp-color-picker {
+    width: 53px !important; }
+  .number-width{
+    width: 50px;    }
+  .number-width-left{
+    width: 50px;    
+    float:right;
+    margin-right: 10px;    }
+  .style-col-pad{
+    padding: 20px;  }
+  }
+  
+
+  .sidebar-preview {
+    background-color: #fff;
+    padding: 10px;
+  }
+  .main-screen-container-fluid .testPreviewButton, .main-screen-container-fluid .sidebar-preview__button-container, .main-screen-container-fluid .sidebar-preview__arrow-container {
+    background-color: #4ec085;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff; }
+  .main-screen-container-fluid .sidebar-preview__button-container {
+    display:none;
+    /*display: inline-block; */
+  }
+    .main-screen-container-fluid .sidebar-preview__button-container a {
+      color: #fff; }
+  .main-screen-container-fluid .sidebar-preview__arrow-container {
+    display:none;
+    /*display: inline-block;*/
+    background-color: #3D7C61;
+    margin-left: -4px; }
+
+    /*.bottom-preview-wrapper {
+      background-color: #E9E9E9;
+      padding: 10px;
+    }*/
+
+
+.main-screen-container-fluid .advanced-settings .advanced-settings-heading {
+  text-align: center;
+  display:inherit;
+  color: #7A9CC3;
+}
+
+.advanced-settings-heading i {
+  margin-right: 5px;
+}
+
+.main-screen-container-fluid #upload_image_overlay {
+  width: 63%;
+  float:none;
+  display:inline-block;
+  border-radius: 4px;
+}
+
+.main-screen-container-fluid #cta_url_overlay {
+  margin-right: 10px;
+  width: 100%;
+  float:right;
+}
+
+#wpcontent {
+  background-color: #F1F1F1;
+}
+
+#sidebar-preview {
+  background-color: #fff;
+  padding: 10px;
+}
+
+#wve_timed_time {
+  width: 71%;
+  float: right;
+}
+
+#cta_time_overlay {
+  display: inline-block;
+  width: 13%;
+  float:right;
+  margin: 5px 10px 0 0;
+}
+
+.main-screen-container-fluid .aff-linke {
+  float: right;
+  width: 75%;
+}
+
+.main-screen-container-fluid .disable-button-group {  
+  display: inline-block;
+  float: right;
+  font-size: 14px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.main-screen-container-fluid .disable-button-group {
+  outline: none;
+}
+
+.main-screen-container-fluid .disable-button-group .disable-toggle-button {
+  background-color: #dcdcdc;
+  border: none;
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+
+.main-screen-container-fluid .disable-button-group .right-btn {
+  margin-left: -8px;
+}
+
+.main-screen-container-fluid .disable-button-group .disable-toggle-button:focus {
+  outline: none;
+}
+
+.main-screen-container-fluid .enable-button-group {
+  /*background-color: #939393;*/
+  display: inline-block;
+  float: right;
+  font-size: 14px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.main-screen-container-fluid .enable-button-group .enable-toggle-button {
+  background-color: #939393;
+  border: none;
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+
+.main-screen-container-fluid .enable-button-group .right-btn {
+  margin-left: -8px;
+}
+
+.main-screen-container-fluid .enable-button-group .enable-toggle-button:focus {
+  outline: none;
+}
+.main-screen-container-fluid .short-code-body #shortcode-ready {
+  width: 70%;
+}
+
+/*# sourceMappingURL=master.css.map */
+/* Pro version offer */
+.wve-pro-offer{
+  background-color:#0B5CB8;
+  color:#fff;
+  margin-bottom: 25px;
+}
+.wve-pro-offer-btn-div{
+  padding:2%;
+}
+.wve-pro-offer-btn{
+  background-color:#86CE14;
+  float: right;
+}
+.wve-pro-offer-btn-div a{
+  color:#fff;
+  text-decoration:underline;
+  float:right;
+}
+.wve-pro-desc{
+  font-size: 21px;
+}
+/* Pro version offer */
